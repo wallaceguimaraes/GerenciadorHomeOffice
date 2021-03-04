@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "ProjetoFaculdade",
+    "slug": "ProjetoFaculdade",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons8-clock-128.png",
+    "splash": {
+      "image": "./assets/icons8-clock-128.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00BFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons8-clock-128.png",
+        "backgroundColor": "#00BFFF"
+      },
+      "package": "com.gerenciador.home"
+    },
+    "web": {
+      "favicon": "./assets/icons8-clock-128.png"
+    }
+  }
+}
